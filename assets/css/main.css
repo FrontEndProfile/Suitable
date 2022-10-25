@@ -1,0 +1,437 @@
+/* FONT IMPORT  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* ROOT */
+:root {
+  --primary: #57A997;
+  --secondary: #000000;
+  --light: #F5F5F7;
+  --roboto: 'Roboto', sans-serif;
+  --font_40: 40px;
+  --font_22: 22px;
+  --font_base: 16px;
+}
+
+*,
+body {
+  font-family: var(--roboto);
+}
+
+.h1,
+h1,
+.h2,
+h2,
+.h3,
+h3,
+.h4,
+h4,
+.h5,
+h5,
+.h6,
+h6,
+p {
+  margin-bottom: 0;
+}
+
+.h1,
+h1,
+.h2,
+h2,
+.h3,
+h3 {
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.circle_green {
+  min-width: 50px;
+  min-height: 50px;
+}
+
+.font-big-light {
+  font-family: var(--roboto);
+  font-style: normal;
+  font-weight: 300;
+  font-size: var(--font_40);
+  line-height: 46px;
+  color: var(--primary);
+}
+
+.font-medium-normal {
+  font-family: var(--roboto);
+  font-style: normal;
+  font-weight: 300;
+  font-size: var(--font_22);
+  line-height: 28px;
+  color: var(--secondary);
+}
+
+.font-medium-normal span {
+  font-weight: 600;
+}
+
+.btn_solid {
+  width: 316px;
+  height: 47.5px;
+  background: var(--primary);
+  border-radius: 30px;
+
+  font-family: var(--roboto);
+  font-weight: 300;
+  font-size: var(--font_22);
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--secondary);
+  transition: 0.3s all;
+}
+
+.btn_solid:hover {
+  color: var(--secondary);
+  background: #1A9988;
+  transition: 0.3s ease-in-out;
+}
+
+.btn_solid:active {
+  background: #1A9988;
+  font-weight: 500;
+  transition: 0.1s ease-in-out;
+}
+
+.btn_link {
+  font-family: var(--roboto);
+  font-style: normal;
+  font-weight: 300;
+  font-size: var(--font_base);
+  line-height: 19px;
+  color: var(--secondary);
+}
+
+.btn_link::after {
+  content: '';
+  width: 0px;
+  height: 2px;
+  display: block;
+  background: var(--primary);
+  transition: 0.3s all;
+}
+
+.btn_link:hover::after {
+  width: 100%;
+}
+
+.btn_link:hover {
+  color: var(--primary);
+  transition: 300ms;
+}
+
+.btn_link:active {
+  font-weight: 700;
+  transition: 0.3s all;
+}
+
+header {
+  padding-block: 27px;
+  position: sticky;
+  top: 0;
+  transition: 0.3s ease-in-out;
+
+}
+
+.navbar-brand {
+  max-width: 236.2px;
+}
+
+header .navbar-nav .nav-item {
+  margin-right: 45px;
+}
+
+header .navbar-nav .nav-item .nav-link {
+  padding: 6px 13px;
+}
+
+
+
+.header_active {
+  padding-block: 20.2px;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  background: rgb(255, 255, 255);
+  z-index: 999;
+}
+
+/* !=== HERO ===========================  */
+.hero {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::after,
+.method::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 210px;
+  background: var(--light);
+  rotate: 7.5deg;
+  translate: -50% 50%;
+}
+
+.hero::before,
+.method::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 210px;
+  background: var(--light);
+  rotate: -7.5deg;
+  translate: 50% 50%;
+}
+
+.hero_tittle {
+  margin-bottom: 50px;
+}
+
+.hero_content {
+  margin-bottom: 75px;
+}
+
+.hero_shirt_img {
+  max-width: 362px;
+}
+
+.shirt_green_mark {
+  margin-right: 35px;
+}
+
+.hero_shirt_content .hero_shirt_content_row:nth-child(2) {
+  margin-top: 13%;
+}
+
+.hero_shirt_content .hero_shirt_content_row:nth-child(3) {
+	margin-top: 14%;
+}
+
+.hero_shirt_content {
+  padding-inline: 10px;
+}
+
+.mission_content_info span {
+  color: var(--primary);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* !=== Mission ===========================  */
+.mission {
+  background: var(--light);
+  height: 100vh;
+  padding-block: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.mission_img {
+  max-width: 425px;
+  margin: auto;
+}
+
+.mission_tittle {
+  margin-bottom: 55px;
+}
+
+.mission_content_info {
+  margin-bottom: 40px;
+}
+
+.mission_content_sub {
+  margin-top: 58px;
+  margin-bottom: 40px;
+}
+
+.mission_content_info:nth-child(5) {
+  margin-top: 58px;
+  margin-bottom: 66px;
+}
+
+.mission_content_sub {
+  margin-top: 90px;
+  margin-bottom: 37px;
+}
+
+/* !=== Method ===========================  */
+.method {
+  background: white;
+  padding-block: 70px;
+  position: relative;
+  overflow: hidden;
+}
+
+.method_tittle {
+  margin-bottom: 62px;
+}
+
+.method_content_box span {
+  font-weight: 300;
+  color: var(--primary);
+}
+
+.method_content_box {
+  max-width: 240px;
+  padding: 0;
+}
+
+.methods {
+  padding-block: 40px;
+  margin-bottom: 48px;
+}
+
+.method_two {
+  position: relative;
+}
+
+.method_logo {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.method_two::after {
+  content: "";
+  position: absolute;
+  right: -60%;
+  top: 50%;
+  translate: 0% -50%;
+  margin-left: auto;
+  width: 83px;
+  height: 55px;
+  background-image: url(../img/Method_arrow.png);
+  background-size: cover;
+}
+
+.method_two::before {
+  content: "";
+  position: absolute;
+  left: -60%;
+  top: 50%;
+  translate: 0% -50%;
+  margin-left: auto;
+  width: 83px;
+  height: 55px;
+  background-image: url(../img/Method_arrow.png);
+  background-size: cover;
+}
+
+
+
+/* !=== Benefits ===========================  */
+
+
+.benefit {
+  background: var(--light);
+  padding-block: 70px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.benefit_tittle {
+  margin-bottom: 23px;
+}
+
+.benefit_card {
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  box-shadow: 4px 4px 18px rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
+  padding: 17px 18px;
+  /* min-width: 378px; */
+  min-height: 269px;
+}
+
+.benefit_card_img {
+  width: 53.75px;
+  height: 53.59px;
+  margin-bottom: 13.5px;
+}
+
+.benefit_card_tittle {
+  font-weight: 500;
+  color: #2D20B6;
+  margin-bottom: 20px;
+}
+
+.benefit_row_cards {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  grid-column-gap: 29px;
+  grid-row-gap: 30px;
+  margin-bottom: 33px;
+}
+
+.benefit_row_cards>*.benefit_card {
+  flex: 378px;
+}
+
+/* !=== Benefits ===========================  */
+.contact {
+  padding-block: 70px;
+
+}
+
+.contact_content {
+  margin-bottom: 40px;
+}
+
+.contact_tittle {
+  margin-bottom: 42px;
+}
+
+input,
+.form-control {
+  border-bottom: 1px solid #C8C8C8;
+  margin-bottom: 22px;
+}
+
+textarea.form-control {
+  margin-bottom: 45px;
+}
+
+/* !=== Footer ===========================  */
+
+footer {
+  padding-block: 27px;
+  background: var(--light);
+}
+
+footer .info {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+}
