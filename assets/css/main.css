@@ -166,7 +166,7 @@ header .navbar-nav .nav-item .nav-link {
 
 /* !=== HERO ===========================  */
 .hero {
-  min-height: 90vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   position: relative;
