@@ -8,7 +8,34 @@
     --font_22: 22px;
     --font_base: 16px;
 }
+/* !=== 1400 =========  */
 
+@media (max-width:1399px) {
+    .hero_tittle {
+        margin-bottom: 30px;
+        font-size: 33px;
+        line-height: 38px;
+    }
+    .hero_content {
+        margin-bottom: 50px;
+    }
+    .shirt_green_mark {
+        margin-right: 25px;
+    }
+    .circle_green {
+        min-width: 47px;
+        min-height: 47px;
+    }
+    .hero_shirt_content .hero_shirt_content_row:nth-child(1) {
+        margin-top: -2%;
+    }
+    .hero_shirt_content .hero_shirt_content_row:nth-child(2) {
+        margin-top: 10%;
+    }
+    .hero_shirt_content .hero_shirt_content_row:nth-child(3) {
+        margin-top: 11%;
+    }
+}
 /* !=== 1200 =========  */
 @media (max-width:1199px) {
     :root {
@@ -103,7 +130,7 @@
 
     }
     .hero_shirt_content .hero_shirt_content_row:nth-child(2) {
-        margin-top: 9%;
+        margin-top: 10%;
     }
     .hero_shirt_content .hero_shirt_content_row:nth-child(3) {
         margin-top: 11%;
@@ -163,6 +190,9 @@
         min-height: 35px;
         max-width: 35px;
         max-height: 35px;
+    }
+    .hero_shirt_content .hero_shirt_content_row:nth-child(1) {
+        margin-top: 1%;
     }
     .hero_shirt_content .hero_shirt_content_row:nth-child(2) {
         margin-top: 21%;
@@ -258,11 +288,14 @@
     .shirt_green_mark {
         margin-right: 10px;
     }
+    .hero_shirt_content .hero_shirt_content_row:nth-child(1) {
+        margin-top: -3%;
+    }
     .hero_shirt_content .hero_shirt_content_row:nth-child(2) {
-        margin-top: 9%;
+        margin-top: 13%;
     }
     .hero_shirt_content .hero_shirt_content_row:nth-child(3) {
-        margin-top: 9%;
+        margin-top: 13%;
     }
     .shirt_green_text {
         font-size: 18px;
