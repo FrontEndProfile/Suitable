@@ -53,3 +53,30 @@ input,.form-control {
 	outline: none;
 	border-radius: 0;
 }
+html {
+	scroll-behavior: smooth;
+}
+:root {
+	--primary: #57A997;
+  }
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: var(--primary) #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: var(--primary);
+    border-radius: 0px;
+    border: none;
+  }

@@ -171,6 +171,7 @@ header .navbar-nav .nav-item .nav-link {
   align-items: center;
   position: relative;
   overflow: hidden;
+  padding-bottom: 100px;
 }
 
 .hero::after,
@@ -183,7 +184,7 @@ header .navbar-nav .nav-item .nav-link {
   height: 210px;
   background: var(--light);
   rotate: 7.5deg;
-  translate: -50% 50%;
+  translate: -2% 60%;
 }
 
 .hero::before,
@@ -196,7 +197,7 @@ header .navbar-nav .nav-item .nav-link {
   height: 210px;
   background: var(--light);
   rotate: -7.5deg;
-  translate: 50% 50%;
+  translate: 2% 60%;
 }
 
 .hero_tittle {
@@ -246,8 +247,8 @@ header .navbar-nav .nav-item .nav-link {
 /* !=== Mission ===========================  */
 .mission {
   background: var(--light);
-  height: 100vh;
-  padding-block: 70px;
+  min-height: 100vh;
+  padding-block: 80px;
   display: flex;
   align-items: center;
 }
@@ -283,9 +284,11 @@ header .navbar-nav .nav-item .nav-link {
 /* !=== Method ===========================  */
 .method {
   background: white;
-  padding-block: 70px;
+  padding-block: 85px;
   position: relative;
   overflow: hidden;
+  padding-bottom: 150px;
+  min-height: 110vh;
 }
 
 .method_tittle {
@@ -353,7 +356,7 @@ header .navbar-nav .nav-item .nav-link {
 
 .benefit {
   background: var(--light);
-  padding-block: 70px;
+  padding-block: 110px;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -399,8 +402,10 @@ header .navbar-nav .nav-item .nav-link {
 
 /* !=== Benefits ===========================  */
 .contact {
-  padding-block: 70px;
-
+  padding-block: 65px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 .contact_content {
