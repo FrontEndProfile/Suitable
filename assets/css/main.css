@@ -15,6 +15,7 @@
 *,
 body {
   font-family: var(--roboto);
+  transition: 0.5s all;
 }
 
 .h1,
@@ -171,9 +172,13 @@ header .navbar-nav .nav-item .nav-link {
   align-items: center;
   position: relative;
   overflow: hidden;
-  padding-bottom: 100px;
+  padding-bottom: 190px;
 }
-
+@media (min-width:1440px) {
+  .hero {
+    padding-bottom: 100px;
+  }
+}
 .hero::after,
 .method::after {
   content: "";
@@ -185,6 +190,7 @@ header .navbar-nav .nav-item .nav-link {
   background: var(--light);
   rotate: 7.5deg;
   translate: -2% 60%;
+  z-index: -1;
 }
 
 .hero::before,
@@ -198,6 +204,7 @@ header .navbar-nav .nav-item .nav-link {
   background: var(--light);
   rotate: -7.5deg;
   translate: 2% 60%;
+  z-index: -1;
 }
 
 .hero_tittle {
@@ -289,6 +296,8 @@ header .navbar-nav .nav-item .nav-link {
   overflow: hidden;
   padding-bottom: 150px;
   min-height: 110vh;
+  position: relative;
+  z-index: 1;
 }
 
 .method_tittle {

@@ -267,6 +267,12 @@
     .shirt_green_text {
         font-size: 18px;
     }
+    .hero::before, .method::before {
+        translate: 5% 60%;
+    }
+    .hero::after, .method::after {
+        translate: -5% 60%;
+    }
 }
 
 
@@ -304,10 +310,6 @@
     .shirt_green_text {
         font-size: 14px;
     }
-    /* .hero_shirt_content_row  {
-        align-items: flex-start !important;
-    } */
-
 
     input, .form-control {
         border-bottom: 1px solid #C8C8C8;
@@ -319,6 +321,13 @@
     }
     .form-control {
         font-size: 18px;
+    }
+    .hero_tittle {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    footer {
+        padding-block: 10px;
     }
 }
 @media (max-width:360px) {

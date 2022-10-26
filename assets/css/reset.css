@@ -55,6 +55,7 @@ input,.form-control {
 }
 html {
 	scroll-behavior: smooth;
+
 }
 :root {
 	--primary: #57A997;
