@@ -16,24 +16,56 @@
         font-size: 33px;
         line-height: 38px;
     }
+    .font-big-light {
+        font-size: 33px;
+        line-height: 39px;
+    }
     .hero_content {
         margin-bottom: 50px;
     }
     .shirt_green_mark {
-        margin-right: 25px;
+        margin-right: 20px;
     }
     .circle_green {
         min-width: 47px;
         min-height: 47px;
     }
     .hero_shirt_content .hero_shirt_content_row:nth-child(1) {
-        margin-top: -2%;
+        margin-top: -1%;
     }
     .hero_shirt_content .hero_shirt_content_row:nth-child(2) {
-        margin-top: 10%;
+        margin-top: 15%;
     }
     .hero_shirt_content .hero_shirt_content_row:nth-child(3) {
-        margin-top: 11%;
+        margin-top: 15%;
+    }
+
+    .mission_tittle {
+        margin-bottom: 40px;
+    }
+    .mission_content_info:nth-child(5) {
+        margin-top: 48px;
+        margin-bottom: 45px;
+    }
+    .mission_content_info {
+        margin-bottom: 32px;
+    }
+    .mission_content_sub {
+        margin-top: 55px;
+        margin-bottom: 35px;
+    }
+    .benefit_card_tittle {
+        margin-bottom: 12px;
+    }
+    .benefit_card {
+        min-height: 250px;
+    }
+    .navbar-brand {
+        max-width: 220px;
+    }
+    .shirt_green_text {
+        font-size: 19px;
+        line-height: 1.3;
     }
 }
 /* !=== 1200 =========  */
@@ -349,7 +381,7 @@
         margin-bottom: 7px;
     }
     .font-medium-normal {
-        line-height: 18px;
+        line-height: 21px;
         font-size: 18px;
     }
     .form-control {
