@@ -435,6 +435,23 @@ textarea.form-control {
   margin-bottom: 45px;
 }
 
+.font-medium-normal.benefit_card_tittle.two {
+  color: #57BC69 ;
+}
+.font-medium-normal.benefit_card_tittle.three {
+  color: #DEDF45;
+}
+.font-medium-normal.benefit_card_tittle.four {
+  color: #69D3DC;
+}
+.font-medium-normal.benefit_card_tittle.five {
+  color: #D43F23;
+}
+.font-medium-normal.benefit_card_tittle.six {
+  color: #B63FD7;
+}
+
+
 /* !=== Footer ===========================  */
 
 footer {

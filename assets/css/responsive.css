@@ -69,6 +69,9 @@
         font-size: 16px;
         line-height: 1.3;
     }
+    .benefit_row_cards > .benefit_card {
+        flex: 300px;
+    }
 }
 /* !=== 1200 =========  */
 @media (max-width:1199px) {
@@ -172,7 +175,15 @@
     .hero_shirt_content .hero_shirt_content_row:nth-child(3) {
         margin-top: 18%;
     }
-
+    .benefit_row_cards > .benefit_card {
+        flex: 250px;
+    }
+    header {
+        padding-block: 14px;
+    }
+    .header_active {
+        padding-block: 4px;
+    }
 }
 /* !=== 991 =========  */
 @media (max-width:991px) {
