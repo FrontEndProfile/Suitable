@@ -27,17 +27,19 @@
         margin-right: 20px;
     }
     .circle_green {
-        min-width: 47px;
-        min-height: 47px;
+        min-width: 40px;
+        min-height: 40px;
+        max-width: 40px;
+        max-height: 40px;
     }
     .hero_shirt_content .hero_shirt_content_row:nth-child(1) {
-        margin-top: -1%;
+        margin-top: 0%;
     }
     .hero_shirt_content .hero_shirt_content_row:nth-child(2) {
-        margin-top: 15%;
+        margin-top: 24%;
     }
     .hero_shirt_content .hero_shirt_content_row:nth-child(3) {
-        margin-top: 15%;
+        margin-top: 22%;
     }
 
     .mission_tittle {
@@ -64,7 +66,7 @@
         max-width: 220px;
     }
     .shirt_green_text {
-        font-size: 19px;
+        font-size: 16px;
         line-height: 1.3;
     }
 }
@@ -161,11 +163,14 @@
         padding-bottom: 150px;
 
     }
+    .hero_shirt_content .hero_shirt_content_row:nth-child(1) {
+        margin-top: -3%;
+    }
     .hero_shirt_content .hero_shirt_content_row:nth-child(2) {
-        margin-top: 10%;
+        margin-top: 15%;
     }
     .hero_shirt_content .hero_shirt_content_row:nth-child(3) {
-        margin-top: 11%;
+        margin-top: 18%;
     }
 
 }
@@ -224,13 +229,13 @@
         max-height: 35px;
     }
     .hero_shirt_content .hero_shirt_content_row:nth-child(1) {
-        margin-top: 1%;
+        margin-top: 2%;
     }
     .hero_shirt_content .hero_shirt_content_row:nth-child(2) {
-        margin-top: 21%;
+        margin-top: 25%;
     }
     .hero_shirt_content .hero_shirt_content_row:nth-child(3) {
-        margin-top: 18%;
+        margin-top: 23%;
     }
 
 }
@@ -354,8 +359,8 @@
     .shirt_green_mark {
         margin-right: 5px;
     }
-    .shirt_green_text {
-        font-size: 16px;
+    .font-medium-normal.shirt_green_text {
+        font-size: 14px;
     }
     .circle_green {
         min-width: 20px;
@@ -364,13 +369,13 @@
         max-height: 20px;
     }
     .hero_shirt_content .hero_shirt_content_row:nth-child(2) {
-        margin-top: 10%;
+        margin-top: 18%;
     }
     .hero_shirt_content .hero_shirt_content_row:nth-child(1) {
-        margin-top: -2%;
+        margin-top: -0%;
     }
     .hero_shirt_content .hero_shirt_content_row:nth-child(3) {
-        margin-top: 9%;
+        margin-top: 11%;
     }
     .shirt_green_text {
         font-size: 14px;
@@ -395,9 +400,20 @@
         padding-block: 10px;
     }
 }
+@media (max-width:440px) {
+    .hero_shirt_content .hero_shirt_content_row:nth-child(2) {
+        margin-top: 10%;
+    }
+    .hero_shirt_content .hero_shirt_content_row:nth-child(1) {
+        margin-top: -5%;
+    }
+    .hero_shirt_content .hero_shirt_content_row:nth-child(3) {
+        margin-top: 9%;
+    }
+}
 @media (max-width:360px) {
-    .shirt_green_text {
-        font-size: 12px;
+    .font-medium-normal.shirt_green_text {
+        font-size: 11px;
         line-height: 1.2;
     }
     .hero_shirt_content .hero_shirt_content_row:nth-child(1) {
@@ -407,6 +423,6 @@
         margin-top: 22%;
     }
     .hero_shirt_content .hero_shirt_content_row:nth-child(3) {
-        margin-top: 17%;
+        margin-top: 25%;
     }
 }
