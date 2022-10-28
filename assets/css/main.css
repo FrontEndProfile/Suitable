@@ -466,3 +466,84 @@ footer .info {
   font-size: 12px;
   line-height: 16px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-default {
+  background: #FFFFFF;
+  border: 1.5px solid var(--primary);
+  color: var(--primary) !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 205px;
+  margin: 0px 26px 0px 18px;
+  font-weight: bold;
+  width: 100%;
+  height: 48px;
+  border-radius: 0px;
+}
+
+.btn-default:hover {
+  background: var(--primary);
+  color: white !important;
+  border: 1.5px solid #AF998C;
+}
+
+.hero-sec .text-box {
+  background-color: white;
+  max-width: 660px;
+  position: relative;
+  padding: 25px 31px 12px 0px;
+  margin-top: 51px;
+  z-index: 1;
+
+}
+
+
+.thanks-main{
+  height: 100vh;
+}
+.thanks-sec {
+  text-align: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.thanks-sec span img{
+  height: 150px;
+}
+.thanks-sec h2{
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 1;
+  font-family: 'TiemposHeadline-Bold';
+  color: var(--primary);
+  margin-top: 30px;
+}
+.thanks-sec p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 180%;
+  letter-spacing: -0.02em;
+  color: var(--secondary);
+  margin: 20px 0 40px 0;
+}

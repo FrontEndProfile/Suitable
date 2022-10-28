@@ -437,3 +437,27 @@
         margin-top: 25%;
     }
 }
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 575px) {
+
+    .thanks-sec h2 { 
+        font-size: 50px; 
+        margin-top: 20px;
+    }
+    .thanks-sec p { 
+        font-size: 14px; 
+        margin: 20px 0 20px 0;
+    }
+    .thanks-sec span img {
+        height: 90px;
+    }
+}
